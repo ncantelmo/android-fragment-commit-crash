@@ -8,7 +8,7 @@ android {
     applicationId "io.ncan.fragmentcommitcrash"
     minSdkVersion 23
     targetSdkVersion 24
-    versionCode 2
+    versionCode 3
     versionName "1.1"
   }
   buildTypes {
@@ -22,8 +22,6 @@ android {
     targetCompatibility JavaVersion.VERSION_1_7
   }
 }
-
-println System.getProperty("java.home")
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
